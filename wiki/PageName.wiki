@@ -1,0 +1,22 @@
+#labels Featured,Phase-Deploy,Phase-Support
+#SKT - usage tips.
+
+= Tips =
+
+- At less than 40-50 cm the Kinect sensor doesn't get distance data (the infrared grid used for detection has its dots to close at this distance to be analized) so always put your Kinect further than this. 
+
+- The first parameter to be regulated is the accepted pixel's variance for qualifying as background. If you put the Kinect completely perpendicular to the surface you probably will be okay with an accepted variance of 300 (0.03 really for it is divided by 10000) or less. If you put it in another direction try different values (and recalibrate background at each try) until you get a nice mask for the background (nice means that in the "Mask" image a lot of pixels from your intended surface are white). Remember not to oclude the image when doing background calibration.
+
+- Then comes the min distance from the surface. SKT does a simple substraction between the new image and the background and then divides the result in the new image values. The first part is for detecting differences and the second one is for doing a little scale normalization (this makes a non-perpendicular capture of the surface posible). The min distance is a simple threshold for, as its name says, min distance from the new pixels from the background to qualify as a usable pixel. Move this a little and look at the "To Blobs" image and you will notice the change. Try not to have to many "sectors" when the surface doesn't have anything on it (this will produce more false positives).
+
+- The next ones are max distance and min blob area. The first is self-speaking. The second is the min connected component area to be considered a usable blob. Move this ones a bit and see what happens on the "RGB" image, then check the "To Blobs" to see the reason.
+
+- That should about do it for basic parameters. For calibrating the RGB and Depth images move the alpha parameter (to 50 for example) and place any object a distance away from the background so you can see the depth difference between them. Then change the values of the XX, YY, etc... for the affine warp and try to fit the image in colors with the gray depth map of the object. This is trial and error at first, then you will get better at it. Each Kinect should have its own values for calibration.
+
+- Then you should probably calibrate the zone. This is always done after calibrating background (each time you do). It's done clockwise starting from the top-left corner. Very important so you wont get blobs from another part in the images. This zone sets the 0-1 bounds for both X and Y axis. You can then do X or Y flips (0->1 , 1->0) and X-Y flips.
+
+- When you have a good calibration, you can save the parameters (the zone does not get saved, the rest of important parameters do). This will get auto loaded the next time. If you want to reset the parameters to default, delete or rename the "settings.xml" file.
+
+- When everything is done and you want to use the tracking, remember that you will get more FPS if you stop updating the "RGB" and "To Blobs" images (unchecking the boxes) or reducing their size (see the output "FPS calculated" to get the idea).
+
+- Have Fun!!
