@@ -1,3 +1,4 @@
+=Tips for Using SKT=
 - At less than 40-50 cm the Kinect sensor doesn't get distance data (the infrared grid used for detection has its dots to close at this distance to be analized) so always put your Kinect farther than this.
 
 - The first parameter to be regulated is the accepted pixel's variance for qualifying as background. If you put the Kinect completely perpendicular to the surface, you probably will be okay with an accepted variance of 300 (0.03 really for it is divided by 10000) or less. If you put it in another direction try different values (and recalibrate background at each try) until you get a nice mask for the background (nice means that in the "Mask" image a lot of pixels from your intended surface are white). Remember not to oclude the image when doing background calibration.
