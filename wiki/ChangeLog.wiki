@@ -1,0 +1,25 @@
+=UPDATE 26-06-2011=
+
+SKT 1.2 for Windows available. VS solution and executable.
+
+=UPDATE 25-06-2011=
+
+New version for linux available: SKT - 1.2.
+
+-Linux src and bin included
+-Option to save and load parameters!
+-Few minor improvements
+
+coming soon: windows and mac versions...
+
+=UPDATE 14-06-2011=
+
+New version available!! SKT - 1.1.
+
+-VS 10 Solution 
+-Binaries for Windows 7 (might work with vista)
+-Binaries for Linux (with SSE 3 and TBB support).
+
+=UPDATE 08-06-2011=
+
+Binaries for linux available. Instructions and dependencies: README file included.
