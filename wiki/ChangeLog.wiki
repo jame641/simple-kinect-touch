@@ -1,3 +1,9 @@
+=UPDATE 14-07-2011=
+
+SKT 1.3 For windows and linux available.
+
+- New option for touch point extraction. Works much better for screens (LCDs, LED, etc...)
+
 =UPDATE 26-06-2011=
 
 SKT 1.2 for Windows available. VS solution and executable.
