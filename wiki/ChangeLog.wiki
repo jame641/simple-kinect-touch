@@ -1,3 +1,9 @@
+=UPDATE 21-07-2011=
+
+SKT 1.4 Available.
+
+- New point calibration
+- Other fixes (includes fix for TUIO port different from default)
 =UPDATE 14-07-2011=
 
 SKT 1.3 For windows and linux available.
