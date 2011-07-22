@@ -1,0 +1,17 @@
+#summary Description of some common problems and posible solutions executing or installing SKT
+#labels Phase-Deploy
+
+= Windows =
+
+Binaries : 
+
+- Some users have reported problems when the Microsoft SDK is installed along with avin2 drivers. This if fixed by uninstalling Microsoft SDK and avin2  and reinstalling avin2 drivers. We will make a Microsoft sdk version soon... 
+
+Typical presentation of the problem :
+
+"OpenCV Error: Unspecified error (Failed to enumerate production trees: Can't
+create
+any node of the requested type!) in unknown function, file D:\OPENCV2.3\open
+cv\modules\highgui\src\cap_openni.cpp, line 188
+
+Could not find any device. "
