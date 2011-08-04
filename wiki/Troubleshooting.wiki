@@ -15,3 +15,13 @@ any node of the requested type!) in unknown function, file D:\OPENCV2.3\open
 cv\modules\highgui\src\cap_openni.cpp, line 188
 
 Could not find any device. "
+
+Thanks to vNakamura for this.
+
+- It has been reported that there is a possible conflict with having two different versions of openni installed (x86 and x64). If you are having problems try uninstalling both and avin2 drivers and reinstalling the same version of openni and avin2 (just one version of each).
+
+Thanks to 3dmark for this.
+
+- If you have a "msvcr100d.dll missing" message try copying this file to the folder where your SKT.exe file lies.
+
+Thanks to Fike for this.
