@@ -1,5 +1,5 @@
 #summary Description of some common problems and posible solutions executing or installing SKT
-#labels Phase-Deploy
+#labels Phase-Deploy,Featured
 
 = Windows =
 
@@ -19,6 +19,12 @@ Could not find any device. "
 Thanks to vNakamura for this.
 
 - It has been reported that there is a possible conflict with having two different versions of openni installed (x86 and x64). If you are having problems try uninstalling both and avin2 drivers and reinstalling the same version of openni and avin2 (just one version of each).
+
+-It has also been reported that the x64 versions have some problems. If you have the following error try the 32 bit version of openni and avin2 (with the other versions uninstalled) : 
+
+"...init done opengl support available Kinect opening ... done.
+FPS Given by Device : 0
+Could not open the device. "
 
 Thanks to 3dmark for this.
 
