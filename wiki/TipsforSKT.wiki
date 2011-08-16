@@ -1,3 +1,10 @@
+#labels Featured
+=Point calibration and extra mask space in version 1.4=
+
+-Now you can do point calibration in SKT!! just make sure you have a good calibration for the touch points and click "Point Calibration" (works in plane and back modes).
+
+-Another new feature is the extra mask space. When you select a plane you might be hoping to use every inch of it so we included a "mask expander" slidebar. Move it and see what happens with the "Mask" image. With this option you can now get some features that would otherwise be outside the detected range. 
+
 =New Tips for version 1.3 and plane use instead of Background=
 
 -The plane method is used when you want to get touch point from a planar surface that does not give a good infrared reflection for Kinect to determine depth. This is the case of LCDs, LEDs and other kind of screens.
