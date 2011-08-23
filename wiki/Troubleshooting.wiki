@@ -1,6 +1,8 @@
 #summary Description of some common problems and posible solutions executing or installing SKT
 #labels Phase-Deploy,Featured
 
+If you had problems executing skt, you should run it in cmd (Win like OS) or terminal (Unix like OS) so you can read the output. To change TUIO port you have to run the program this way (check README file for more info). In general skt prints a lot of details to the terminal (or cmd) so it is always better to run it there.  
+
 = Windows =
 
 Binaries : 
