@@ -1,4 +1,6 @@
+#summary Some tips for SKT usage and calibration
 #labels Featured
+
 =Point calibration and extra mask space in version 1.4=
 
 -Now you can do point calibration in SKT!! just make sure you have a good calibration for the touch points and click "Point Calibration" (works in plane and back modes).
