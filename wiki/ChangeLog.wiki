@@ -1,4 +1,6 @@
+#summary Log of fixes, new features and other info.
 #labels Featured
+
 =UPDATE 21-07-2011=
 
 SKT 1.4 Available.
