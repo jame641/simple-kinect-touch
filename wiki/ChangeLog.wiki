@@ -5,14 +5,14 @@
 
 SKT 2.0 "beta" available for linux.
 
-*Source rewritten for a little more simplicity (and future portability to win and mac).
-*More "kinect movement" stable
-*New plane fitting method (using minimum squares)
-*New threshold method (very basic options, IMPORTANT : must select zone first!)
-*Now the settings are all initialized from "settings.xml" file. Now you can change the number of calibration points, max number of blobs, tuio host and port, etc...
-*Better point calibration (easier to use)
-*A simple automatic min-max distance search. 
-*Very simple mouse pointer implementation (moves the mouse following the blob with ID=0 and clicks when ID=1 appears together with ID=0). For better results be sure to have a good calibration before you activate the "mouse" checkbox.
+* Source rewritten for a little more simplicity (and future portability to win and mac).
+* More "kinect movement" stable
+* New plane fitting method (using minimum squares)
+* New threshold method (very basic options, IMPORTANT : must select zone first!)
+* Now the settings are all initialized from "settings.xml" file. Now you can change the number of calibration points, max number of blobs, tuio host and port, etc...
+* Better point calibration (easier to use)
+* A simple automatic min-max distance search. 
+* Very simple mouse pointer implementation (moves the mouse following the blob with ID=0 and clicks when ID=1 appears together with ID=0). For better results be sure to have a good calibration before you activate the "mouse" checkbox.
 
 Soon we will have a win and mac SKT-2.0 version.
 
