@@ -16,6 +16,10 @@ host or port the application WILL exit.
 
 -You can stop the "Auto Min-Max" with "Stop Auto" at any time.
 
+-Mouse: sends mouse move and click events in Windows and Linux. Use it when you have done a good calibration! (if not you will probably not be able to shut the program)
+
+-Module: Calculates the absolute difference in background and plane methods (useful for transparent rear-projection). Normally the difference has sign (and is better for surfaces or screens) 
+
 -Other minor fixes have been included and hopefully we wont get too many more :)
 
 ENJOY!!!
