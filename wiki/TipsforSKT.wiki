@@ -1,6 +1,25 @@
 #summary Some tips for SKT usage and calibration
 #labels Featured
 
+=New features in version 2.0=
+
+-Threshold: Simple threshold of distance. Points that are in the interval between min Dist and max Dist are considered for blobs
+
+-The plane method is now done with least squares (a lot better)
+
+-The point calibration now has a timing between points. When touching a point keep the touch until the circle becomes green. Then remove the touch and go for the next one. You can modify the number of calibration points in settings.xml. The final number of points will be the number you set squared.
+
+-All the Tuio information now goes in the settings.xml file. If you put an invalid
+host or port the application WILL exit.
+
+-New auto setup of min and max dist. When you feel your setup is ready, keep two "touches" on the surface (separated) and click "Auto Min-Max". You will see the values in the trackbars (in the "To Blobs" image) moving. The idea is that the program moves the values until it finds two blobs (closest to the surface possible) and keeps getting the same two blobs for at least 20 frames.
+
+-You can stop the "Auto Min-Max" with "Stop Auto" at any time.
+
+-Other minor fixes have been included and hopefully we wont get too many more :)
+
+ENJOY!!!
+
 =Point calibration and extra mask space in version 1.4=
 
 -Now you can do point calibration in SKT!! just make sure you have a good calibration for the touch points and click "Point Calibration" (works in plane and back modes).
