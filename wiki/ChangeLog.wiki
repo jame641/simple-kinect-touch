@@ -1,5 +1,16 @@
 #summary Log of fixes, new features and other info.
 #labels Featured
+=UPDATE 29-01-2012=
+
+SKT 2.1 available
+
+  # New method for point calibration using zones (much better)
+  # RANSAC fit for plane method (preparation for a future method)
+  # Now you can use the negative values only for distance (useful for clear rear projective film, i.e. back projection and kinetic placement)
+  # New plane moving function (always parallel), useful for the same as before and other instances.
+  # Deprecated the disparity functions, now the RGB and DEPTH images can be calibrated automatically using OpenCV's new option (checkbox in SKT).
+  # New mouse as "touch" function. Simple "touch is pressed" method just for blob 0.
+  # Other fixes....
 
 =UPDATE 06-10-2011=
 
